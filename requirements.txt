@@ -4,3 +4,4 @@ langchain-openai
 langchain-groq
 langchain-google-genai
 python-dotenv
+langchain_huggingface
