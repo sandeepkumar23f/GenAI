@@ -8,3 +8,4 @@ langchain-huggingface
 transformers
 torch
 accelerate
+sentence-transformers
