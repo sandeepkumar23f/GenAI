@@ -10,3 +10,4 @@ torch
 accelerate
 sentence-transformers
 streamlit
+pydantic
