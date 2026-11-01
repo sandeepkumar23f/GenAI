@@ -44,7 +44,8 @@ def extract(para):
         "format_instruction": parser.get_format_instructions(),
     })
     response = model.invoke(final_prompt)
-    return response.content
+    movie_data = parser.parse(response.content)
+    return movie_data.model_dump_json(indent=2)
 
 
 # =====================================================
